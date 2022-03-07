@@ -1,0 +1,7 @@
+Running: xsim.dir/comparator_behav/xsimk.exe -simmode gui -wdb comparator_behav.wdb -simrunnum 0 -socket 1103
+Design successfully loaded
+Design Loading Memory Usage: 6700 KB (Peak: 6700 KB)
+Design Loading CPU Usage: 93 ms
+Simulation completed
+Simulation Memory Usage: 7276 KB (Peak: 7276 KB)
+Simulation CPU Usage: 124 ms
