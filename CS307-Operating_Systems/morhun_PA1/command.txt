@@ -1,0 +1,1 @@
+man ping | grep "\-A" -A 2 > output.txt
