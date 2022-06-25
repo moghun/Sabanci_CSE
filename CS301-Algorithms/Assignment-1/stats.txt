@@ -1,0 +1,31 @@
+5 5
+Length of LCS is  0
+--- 5.337499999999787e-05 seconds ---
+10 10
+Length of LCS is  0
+--- 8.433299999999894e-05 seconds ---
+15 15
+Length of LCS is  0
+--- 0.00017791699999999966 seconds ---
+18 18
+Length of LCS is  0
+--- 0.00025574999999999903 seconds ---
+20 20
+Length of LCS is  0
+--- 0.00029187500000000047 seconds ---
+5 5
+Length of LCS is  0
+--- 0.00012708300000000006 seconds ---
+10 10
+Length of LCS is  0
+--- 0.06136983299999999 seconds ---
+15 15
+Length of LCS is  0
+--- 39.502788916 seconds ---
+18 18
+Length of LCS is  0                      
+--- 2320.326040125 seconds ---
+20 20
+Length of LCS is  0                      
+--- 38613.8632319 seconds ---
+----------------------------------

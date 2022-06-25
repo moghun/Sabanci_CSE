@@ -1,0 +1,150 @@
+Random DNA Sequence results
+>random sequence 1 consisting of 20 bases.
+taagaattcaccggccgatt
+
+>random sequence 2 consisting of 20 bases.
+tggggctgaaccgcaggcga
+
+>random sequence 3 consisting of 20 bases.
+tcctgaggtggtgccgcgat
+
+>random sequence 4 consisting of 20 bases.
+tttctgtcaaatcttcacgc
+
+>random sequence 5 consisting of 20 bases.
+ttgctacggtattacgggac
+
+>random sequence 6 consisting of 20 bases.
+tagtaggtacagcacatact
+
+>random sequence 7 consisting of 20 bases.
+gccttgatcatttactgcta
+
+>random sequence 8 consisting of 20 bases.
+ctttgtcctatgattcggcc
+
+>random sequence 9 consisting of 20 bases.
+gctgtgcccgaaggccagtg
+
+>random sequence 10 consisting of 20 bases.
+accggagaggtcgattccaa
+
+>random sequence 11 consisting of 20 bases.
+ctaatatgagggtccatacc
+
+>random sequence 12 consisting of 20 bases.
+cattgtctcatccagtcctc
+
+>random sequence 13 consisting of 20 bases.
+caattaccccgccccagagt
+
+>random sequence 14 consisting of 20 bases.
+gtctaagtaggctcgtggtt
+
+>random sequence 15 consisting of 20 bases.
+caccgaagcctttggcacgt
+
+>random sequence 16 consisting of 20 bases.
+ctccagtgagcgaatacaac
+
+>random sequence 17 consisting of 20 bases.
+gcataagttgctagcatcct
+
+>random sequence 18 consisting of 20 bases.
+ggcggaacagcaaccgacat
+
+>random sequence 19 consisting of 20 bases.
+cgagagacatagaattatgg
+
+>random sequence 20 consisting of 20 bases.
+taagtgtaacgatagaacga
+
+>random sequence 21 consisting of 20 bases.
+cgcccgttcaactgtacgtg
+
+>random sequence 22 consisting of 20 bases.
+gatggcacgttgccgctcat
+
+>random sequence 23 consisting of 20 bases.
+gttgttctcacgaatgagcg
+
+>random sequence 24 consisting of 20 bases.
+ttgccagaggggtacgtacg
+
+>random sequence 25 consisting of 20 bases.
+aatcgcaactgtcttcgacg
+
+>random sequence 26 consisting of 20 bases.
+ctgcgactagatagcccgtc
+
+>random sequence 27 consisting of 20 bases.
+cgaggctttgcagtcatcct
+
+>random sequence 28 consisting of 20 bases.
+gagataagcctcgtgtggac
+
+>random sequence 29 consisting of 20 bases.
+tgtgtaattgagaacacatt
+
+>random sequence 30 consisting of 20 bases.
+aatagcattcagcaatacta
+
+>random sequence 31 consisting of 20 bases.
+gcggatgtttagttgcctgc
+
+>random sequence 32 consisting of 20 bases.
+gtatgatagttaaagcggcg
+
+>random sequence 33 consisting of 20 bases.
+ggtcagcaatcttcactcgg
+
+>random sequence 34 consisting of 20 bases.
+cgttcgcaactactggcaaa
+
+>random sequence 35 consisting of 20 bases.
+actactatttacatcgtttg
+
+>random sequence 36 consisting of 20 bases.
+aagtaaccgaactctgatgc
+
+>random sequence 37 consisting of 20 bases.
+gcctcatctaattttccgcg
+
+>random sequence 38 consisting of 20 bases.
+gattaagcacaaaaccccat
+
+>random sequence 39 consisting of 20 bases.
+gcccgaaaagacggtagtgt
+
+>random sequence 40 consisting of 20 bases.
+ggcggtgattgacccgacta
+
+>random sequence 41 consisting of 20 bases.
+acgaacgcgggttttgtgat
+
+>random sequence 42 consisting of 20 bases.
+gtacacttcagcggtttctt
+
+>random sequence 43 consisting of 20 bases.
+ggatcgacaagcatatttta
+
+>random sequence 44 consisting of 20 bases.
+aattgatgtctcagcatcat
+
+>random sequence 45 consisting of 20 bases.
+tgtgtagacgttctgggccg
+
+>random sequence 46 consisting of 20 bases.
+cgtcctatcagcgcgtgaac
+
+>random sequence 47 consisting of 20 bases.
+tacaacggctatccctaccg
+
+>random sequence 48 consisting of 20 bases.
+gtacggcgatttataaggag
+
+>random sequence 49 consisting of 20 bases.
+aacccaggcggagggcattc
+
+>random sequence 50 consisting of 20 bases.
+cctccgaccagggcctttcc
