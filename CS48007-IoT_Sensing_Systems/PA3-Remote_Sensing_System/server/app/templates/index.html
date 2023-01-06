@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bounding Boxes</title>
+	</head>
+	<body id="body">
+		<img src="data:image/jpeg;base64, {{image}}" />
+	</body>
+	<script>
+		var body = document.getElementById("body");
+		setInterval(() => {
+			fetch("{{ url_for('get_stream') }}").then((response) => {
+				response.text().then((image) => {
+					body.innerHTML = image;
+				});
+			});
+		}, 1000);
+	</script>
+</html>

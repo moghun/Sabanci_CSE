@@ -1,0 +1,22 @@
+C:\CS_408_PROJ\CS_408_A_star\Client\Client\bin\Release\Client.exe.config
+C:\CS_408_PROJ\CS_408_A_star\Client\Client\bin\Release\Client.exe
+C:\CS_408_PROJ\CS_408_A_star\Client\Client\bin\Release\Client.pdb
+C:\CS_408_PROJ\CS_408_A_star\Client\Client\obj\Release\Client.csproj.AssemblyReference.cache
+C:\CS_408_PROJ\CS_408_A_star\Client\Client\obj\Release\Client.csproj.SuggestedBindingRedirects.cache
+C:\CS_408_PROJ\CS_408_A_star\Client\Client\obj\Release\Client.Form1.resources
+C:\CS_408_PROJ\CS_408_A_star\Client\Client\obj\Release\Client.Properties.Resources.resources
+C:\CS_408_PROJ\CS_408_A_star\Client\Client\obj\Release\Client.csproj.GenerateResource.cache
+C:\CS_408_PROJ\CS_408_A_star\Client\Client\obj\Release\Client.csproj.CoreCompileInputs.cache
+C:\CS_408_PROJ\CS_408_A_star\Client\Client\obj\Release\Client.exe
+C:\CS_408_PROJ\CS_408_A_star\Client\Client\obj\Release\Client.pdb
+C:\dev\Academic\CS College Projects\CS_408_A_star\Client\Client\obj\Release\Client.csproj.AssemblyReference.cache
+C:\dev\Academic\CS College Projects\CS_408_A_star\Client\Client\obj\Release\Client.csproj.SuggestedBindingRedirects.cache
+C:\dev\Academic\CS College Projects\CS_408_A_star\Client\Client\obj\Release\Client.Form1.resources
+C:\dev\Academic\CS College Projects\CS_408_A_star\Client\Client\obj\Release\Client.Properties.Resources.resources
+C:\dev\Academic\CS College Projects\CS_408_A_star\Client\Client\obj\Release\Client.csproj.GenerateResource.cache
+C:\dev\Academic\CS College Projects\CS_408_A_star\Client\Client\obj\Release\Client.csproj.CoreCompileInputs.cache
+C:\dev\Academic\CS College Projects\CS_408_A_star\Client\Client\obj\Release\Client.exe
+C:\dev\Academic\CS College Projects\CS_408_A_star\Client\Client\obj\Release\Client.pdb
+C:\dev\Academic\CS College Projects\CS_408_A_star\Client\Client\bin\Release\Client.exe.config
+C:\dev\Academic\CS College Projects\CS_408_A_star\Client\Client\bin\Release\Client.exe
+C:\dev\Academic\CS College Projects\CS_408_A_star\Client\Client\bin\Release\Client.pdb

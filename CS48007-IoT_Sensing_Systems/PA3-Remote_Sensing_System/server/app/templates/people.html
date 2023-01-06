@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Number of people</title>
+	</head>
+	<body id="body">
+		<h2>Number of People:</h2>
+		<h2 id="numberOfPeople">{{ numberOfPeople }}</h2>
+	</body>
+	<script>
+		var body = document.getElementById("body");
+		setInterval(() => {
+			fetch("{{ url_for('getPeople') }}").then((response) => {
+				response.text().then((text) => {
+					body.innerHTML = text;
+				});
+			});
+		}, 1000);
+	</script>
+</html>
