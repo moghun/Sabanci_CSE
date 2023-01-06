@@ -40,18 +40,18 @@ public:
 
 private:
 
-	template <class HashedObj>
+	template <class x>
 	struct HashEntry
 	{
 	public:
-		HashedObj element;
+		x element;
 		EntryType info;
 
-		HashEntry(const HashedObj& e = HashedObj(), EntryType i = EMPTY)
+		HashEntry(const x& e = x(), EntryType i = EMPTY)
 			:element(e), info(i) {}
 	};
 
-	vector< HashEntry<HashedObj>> arr;
+	vector< HashEntry< HashedObj> > arr;
 	int currentSize;
 	const HashedObj ITEM_NOT_FOUND;
 
