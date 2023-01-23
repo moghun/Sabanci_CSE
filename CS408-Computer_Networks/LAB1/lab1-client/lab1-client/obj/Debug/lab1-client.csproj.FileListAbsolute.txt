@@ -1,0 +1,9 @@
+C:\Users\hp\OneDrive\Masaüstü\CS408_Lab-1\Lab1\lab1_client\lab1-client\lab1-client\bin\Debug\lab1-client.exe.config
+C:\Users\hp\OneDrive\Masaüstü\CS408_Lab-1\Lab1\lab1_client\lab1-client\lab1-client\bin\Debug\lab1-client.exe
+C:\Users\hp\OneDrive\Masaüstü\CS408_Lab-1\Lab1\lab1_client\lab1-client\lab1-client\bin\Debug\lab1-client.pdb
+C:\Users\hp\OneDrive\Masaüstü\CS408_Lab-1\Lab1\lab1_client\lab1-client\lab1-client\obj\Debug\lab1-client.csprojResolveAssemblyReference.cache
+C:\Users\hp\OneDrive\Masaüstü\CS408_Lab-1\Lab1\lab1_client\lab1-client\lab1-client\obj\Debug\lab1_client.Form1.resources
+C:\Users\hp\OneDrive\Masaüstü\CS408_Lab-1\Lab1\lab1_client\lab1-client\lab1-client\obj\Debug\lab1_client.Properties.Resources.resources
+C:\Users\hp\OneDrive\Masaüstü\CS408_Lab-1\Lab1\lab1_client\lab1-client\lab1-client\obj\Debug\lab1-client.csproj.GenerateResource.Cache
+C:\Users\hp\OneDrive\Masaüstü\CS408_Lab-1\Lab1\lab1_client\lab1-client\lab1-client\obj\Debug\lab1-client.exe
+C:\Users\hp\OneDrive\Masaüstü\CS408_Lab-1\Lab1\lab1_client\lab1-client\lab1-client\obj\Debug\lab1-client.pdb
