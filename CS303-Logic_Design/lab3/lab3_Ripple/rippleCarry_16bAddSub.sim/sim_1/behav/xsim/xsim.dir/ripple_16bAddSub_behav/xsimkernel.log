@@ -1,0 +1,7 @@
+Running: xsim.dir/ripple_16bAddSub_behav/xsimk.exe -simmode gui -wdb ripple_16bAddSub_behav.wdb -simrunnum 0 -socket 18149
+Design successfully loaded
+Design Loading Memory Usage: 5748 KB (Peak: 5748 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 6300 KB (Peak: 6300 KB)
+Simulation CPU Usage: 46 ms

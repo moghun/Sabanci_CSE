@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"CLA_sim_time_impl.v" \
+"../../../../../CLA_16bAddSub.srcs/sim_1/new/CLA_sim.v" \
+
+# Do not sort compile order
+nosort

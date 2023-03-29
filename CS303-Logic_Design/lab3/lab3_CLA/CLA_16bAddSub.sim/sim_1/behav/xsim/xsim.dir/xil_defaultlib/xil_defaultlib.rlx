@@ -1,0 +1,8 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/hp/CLA_16bAddSub/CLA_16bAddSub.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+C:/Users/hp/CLA_16bAddSub/CLA_16bAddSub.srcs/sim_1/new/CLA_sim.v,1638142701,verilog,,,,CLA_sim,,,,,,,,
+C:/Users/hp/CLA_16bAddSub/CLA_16bAddSub.srcs/sources_1/new/CLA_16bitAddSub.v,1638142385,verilog,,C:/Users/hp/CLA_16bAddSub/CLA_16bAddSub.srcs/sources_1/new/CLA_4bit.v,,CLA_16bAddSub,,,,,,,,
+C:/Users/hp/CLA_16bAddSub/CLA_16bAddSub.srcs/sources_1/new/CLA_4bit.v,1638142387,verilog,,C:/Users/hp/CLA_16bAddSub/CLA_16bAddSub.srcs/sim_1/new/CLA_sim.v,,CLA_4Bit,,,,,,,,

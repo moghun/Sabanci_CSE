@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../rippleCarry_16bAddSub.srcs/sources_1/new/fullAdder.v" \
+"../../../../rippleCarry_16bAddSub.srcs/sources_1/new/ripple_16bAddSub.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
