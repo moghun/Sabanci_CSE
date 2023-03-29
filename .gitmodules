@@ -1,0 +1,3 @@
+[submodule "CS306-Database_Systems/TSLma"]
+	path = CS306-Database_Systems/TSLma
+	url = https://github.com/moghun/TSLma.git
