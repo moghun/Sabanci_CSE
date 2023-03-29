@@ -1,3 +1,18 @@
 [submodule "CS306-Database_Systems/TSLma"]
 	path = CS306-Database_Systems/TSLma
 	url = https://github.com/moghun/TSLma.git
+[submodule "CS48007-IoT_Sensing_Systems/IoT-Room_Authentication_System"]
+	path = CS48007-IoT_Sensing_Systems/IoT-Room_Authentication_System
+	url = https://github.com/moghun/IoT-Room_Authentication_System
+[submodule "CS308-Software_Engineering/OverBooked"]
+	path = CS308-Software_Engineering/OverBooked
+	url = https://github.com/moghun/OverBooked.git
+[submodule "CS48002-Network_Science/rplace_community-detection-interpretation"]
+	path = CS48002-Network_Science/rplace_community-detection-interpretation
+	url = https://github.com/moghun/rplace_community-detection-interpretation.git
+[submodule "CS210-Data_Science/genre-popularity-analysis"]
+	path = CS210-Data_Science/genre-popularity-analysis
+	url = https://github.com/moghun/genre-popularity-analysis.git
+[submodule "CS303-Logic_Design/Telephone-Convo-Sim"]
+	path = CS303-Logic_Design/Telephone-Convo-Sim
+	url = https://github.com/moghun/Telephone-Convo-Sim
