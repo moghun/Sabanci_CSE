@@ -16,3 +16,6 @@
 [submodule "CS303-Logic_Design/Telephone-Convo-Sim"]
 	path = CS303-Logic_Design/Telephone-Convo-Sim
 	url = https://github.com/moghun/Telephone-Convo-Sim
+[submodule "CS310-Mobile_App_Development/Syboard"]
+	path = CS310-Mobile_App_Development/Syboard
+	url = https://github.com/moghun/Syboard.git
