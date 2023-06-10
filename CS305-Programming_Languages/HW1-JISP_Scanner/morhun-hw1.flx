@@ -1,0 +1,136 @@
+%{
+int noLine = 1;
+
+char* getLegalNum(char* strNum){
+    char* legalNum = (char*) malloc(4);
+    int numLen = strlen(strNum);
+    int ctr = 0;
+    char flag = '0';
+    int zeroCount = 0;
+    int numStartIndex = 0;
+    int newNumStartIndex = 0;
+    char zeroAlert = '0';
+    char floatAlert = '0';
+
+
+    if (strNum[0] == '-')
+    {
+        legalNum[0] = '-';
+        numStartIndex = 1;
+        newNumStartIndex = 1;
+        ctr = 1;
+    }
+
+    while(flag == '0')
+    {
+        if (ctr != numLen)
+        {
+            if (strNum[ctr] == '0')
+            {
+                zeroCount++;
+                ctr++;
+            }
+
+            else
+            {
+                if (strNum[ctr] == '.') zeroAlert = '1';
+                flag = '1';
+            }
+        }
+
+        else{
+            zeroAlert = '1';
+            flag = '1';
+        }
+    }
+
+    numStartIndex = numStartIndex + zeroCount;
+    if (zeroAlert == '1') numStartIndex--;
+    
+    flag = '0';
+    int zeroesAfterPoint = 0;
+
+    while(flag == '0')
+    {
+        legalNum[newNumStartIndex] = strNum[numStartIndex];
+
+        if(strNum[numStartIndex] == '.') floatAlert = '1';
+
+        if(floatAlert == '1')
+        {
+            if (strNum[numStartIndex] == '0' && strNum[numStartIndex-1] != '.')
+            {
+                
+                zeroesAfterPoint++;
+            }
+            
+            else 
+            {
+                zeroesAfterPoint = 0;
+            }
+        }
+        newNumStartIndex++;
+        numStartIndex++;
+        if(numStartIndex == numLen) flag = '1';
+    }
+
+    legalNum[strlen(legalNum)-zeroesAfterPoint] = '\0';
+
+    return legalNum;
+}
+%}
+
+%%
+","     printf("%d tCOMMA\n", noLine);
+"["     printf("%d tLBRAC\n", noLine);
+"]"     printf("%d tRBRAC\n", noLine);
+
+\"Return\"      printf("%d tRETURN\n", noLine);
+
+"\"If\""        printf("%d tIF\n", noLine);
+"\"For\""       printf("%d tFOR\n", noLine);
+"\"Function\""  printf("%d tFUNCTION\n", noLine);
+"\"Print\"" printf("%d tPRINT\n", noLine);
+
+"\"Get\""       printf("%d tGET\n", noLine);
+"\"Set\""       printf("%d tSET\n", noLine);
+
+"\"+\"" printf("%d tPLUS\n", noLine);
+"\"-\"" printf("%d tMINUS\n", noLine);
+"\"*\"" printf("%d tMUL\n", noLine);
+"\"/\"" printf("%d tDIV\n", noLine);
+
+"\"++\""        printf("%d tINC\n", noLine);
+"\"--\""        printf("%d tDEC\n", noLine);
+
+"\">\"" printf("%d tGT\n", noLine);
+"\"<\"" printf("%d tLT\n", noLine);
+"\"==\""        printf("%d tEQUALITY\n", noLine);
+"\">=\""        printf("%d tGEQ\n", noLine);
+"\"<=\""        printf("%d tLEQ\n", noLine);
+
+\"[_a-zA-Z][_a-zA-Z0-9]*\" yytext[strlen(yytext)-1] = '\0'; printf("%d tIDENT (%s)\n", noLine, yytext+1);
+
+-?[0-9]+[.][0-9]+   printf("%d tNUM (%s) (%s)\n",noLine, yytext, getLegalNum(yytext));
+
+-?[0-9]+    printf("%d tNUM (%s) (%s)\n", noLine, yytext, getLegalNum(yytext));
+
+\'[^']*\'   {
+                        yytext[strlen(yytext)-1] = '\0';
+                        printf("%d tSTRING (%s)\n", noLine, yytext+1);
+                        int i = 0;
+                        for(; i < strlen(yytext); i++)
+            {
+                                if(yytext[i] == '\n') noLine++;
+                        }
+                }
+
+""
+"\n"  noLine++;
+[ \t\r\f\v]
+[^ \t\n\r\f\v]    printf("%d ILLEGAL CHARACTER (%s)\n", noLine, yytext);
+%%
+
+int main(){
+        yylex();
+}

@@ -1,0 +1,52 @@
+%{
+#include "morhunNodesHW3.h"
+#include "morhun-hw3.tab.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+int globalLineNum = 1;
+
+char * castStr(char * str){
+    
+	int inputLength = strlen(str);
+	char * castStr = (char *) malloc(inputLength - 1);
+	memcpy(castStr, str+1, inputLength - 2);
+	castStr[inputLength - 2] = '\0';
+	return castStr;
+}
+
+%}
+%%
+["]Get["]		return tGET;
+["]Set["]		return tSET;
+["]Function["]	return tFUNCTION;
+["]Print["]		return tPRINT;
+["]If["]		return tIF;
+["]Return["]	return tRETURN;
+
+["]"+"["]		{yylval.oploc = globalLineNum; return tADD;}
+["]"-"["]		{yylval.oploc = globalLineNum; return tSUB;}
+["]"*"["]		{yylval.oploc = globalLineNum; return tMUL;}
+["]"/"["]       {yylval.oploc = globalLineNum; return tDIV;}
+["]"++"["]		return tINC;
+["]">"["]		return tGT;
+["]"=="["]		return tEQUALITY;
+["]"--"["]		return tDEC;
+["]"<"["]		return tLT;
+["]"<="["]		return tLEQ;
+["]">="["]		return tGEQ;
+
+['][^']*[']		{ yylval.strval = (castStr(yytext)); return tSTRING;}
+["][_a-zA-Z][a-zA-Z0-9_]*["]	return tIDENT;
+				
+[0-9]+ |
+-[0-9]+ 			 { yylval.intval = atoi(yytext);  return tNUM;}
+[0-9]+"."[0-9]+	|
+-[0-9]+"."[0-9]+	 { yylval.realval = atof(yytext); return tREAL;} 
+
+\n globalLineNum++;
+
+[ \t\r]+ 
+.			return yytext[0];
+
+%%
