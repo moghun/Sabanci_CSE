@@ -1,6 +1,6 @@
 # Sabanci_CSE
 
-Sabanci University Computer Science and Department
+Sabanci University Computer Science and Engineering Department
 
 Includes assignments, projects and reports
 
