@@ -19,3 +19,6 @@
 [submodule "CS310-Mobile_App_Development/Syboard"]
 	path = CS310-Mobile_App_Development/Syboard
 	url = https://github.com/moghun/Syboard.git
+[submodule "CS401-Computer_Architectures/MIPS_Symmetric_Encryption"]
+	path = CS401-Computer_Architectures/MIPS_Symmetric_Encryption
+	url = https://github.com/moghun/MIPS_Symmetric_Encryption.git
