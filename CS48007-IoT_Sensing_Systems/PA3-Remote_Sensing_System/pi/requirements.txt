@@ -13,7 +13,7 @@ click==7.1.2
 colorama==0.4.4
 colorzero==1.1
 contourpy==1.0.6
-cryptography==3.3.2
+cryptography==46.0.6
 cupshelpers==1.0
 cycler==0.11.0
 dbus-python==1.2.16
